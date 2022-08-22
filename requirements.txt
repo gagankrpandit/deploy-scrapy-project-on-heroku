@@ -1,3 +1,4 @@
+scrapy-heroku==7.53.0
 Scrapy==2.6.2
 pandas==1.4.3
 cffi==1.15.1
