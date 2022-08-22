@@ -36,7 +36,7 @@ class FkrtSpiderSpider(scrapy.Spider):
 
         df = pd.DataFrame(dict_)
         print(df.head())
-        df.to_csv('D:/webScraping/scrapy/flipkart_spider/flipkart_spider/scrapedData.csv', mode='a',index=False)
+        df.to_csv('scrapedData.csv', mode='a',index=False)
     
     
         
