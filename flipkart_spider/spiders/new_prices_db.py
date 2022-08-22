@@ -5,7 +5,7 @@ from datetime import datetime
 class DealAlertSpider(scrapy.Spider):
     name = 'new_prices_db'
     allowed_domains = ['flipkart.com']
-    df = pd.read_csv('D:/webScraping/scrapy/flipkart_spider/flipkart_spider/priceHistory.csv')
+    df = pd.read_csv('priceHistory.csv')
     start_urls = list(df['url'])
     date_ = datetime.now().strftime("%m/%d/%Y, %H:%M")
     
