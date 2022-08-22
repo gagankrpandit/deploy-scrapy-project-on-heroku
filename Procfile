@@ -1,1 +1,1 @@
-web: scrapy crawl new_prices_db.py
+web: scrapy crawl new_prices_db
