@@ -1,1 +1,1 @@
-web: scrapy server
+web: scrapyd
